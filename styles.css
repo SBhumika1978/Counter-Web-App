@@ -1,0 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/google-sans");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Product Sans Medium", sans-serif;
+  height: 100vh;
+}
+.counter_container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 250px auto;
+  width: 850px;
+  background-color: blue;
+  border-radius: 20px;
+  padding: 20px 30px;
+  font-weight: bold;
+  box-shadow: 0px 0px 100px yellow;
+}
+.btn {
+  font-size: 100px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.ctr_data {
+  font-size: 100px;
+}
